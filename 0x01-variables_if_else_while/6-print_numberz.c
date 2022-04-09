@@ -6,7 +6,7 @@
  * under 10 without using any char variables
  * Return: 0
  * */
-   intmain(void)
+   int main(void)
 {
 	int i = 48;
 
