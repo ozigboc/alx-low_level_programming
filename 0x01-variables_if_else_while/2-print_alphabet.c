@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  *  * main - main block
@@ -7,15 +7,16 @@ nclude <stdio.h>
  *     */
 int main(void)
 {
-	char c = 'a';
+		char c = 'a';
 
-	while (c <= 'z')
-{ 
-	putchar(c);
+			while (c <= 'z')
+					{
+								putchar(c);
 
-		c++;
-			}
-	putchar('\n');
+										c++;
+											}
 
-	return (0);
+				putchar('\n');
+
+					return (0);
 }
