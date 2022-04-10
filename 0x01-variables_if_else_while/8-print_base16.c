@@ -1,19 +1,24 @@
 #include <stdio.h>
 
 /**
- *  * main - prints out all the numbers of base
- *   * 16 in lowercase
- *    * Return: 0
- *     */
+ * * main - main block
+ * * Description: print all possible combination for single-digit numbers
+ * * Return: 0
+ * */
 int main(void)
 {
-		char c;
-			int i;
+	int i = 0;
 
-				for (i = 0; i < 10; i++)
-							putchar(i + '0');
-					for (c = 'a'; c <= 'f'; c++)
-								putchar(c);
-						putchar('\n');
-							return (0);
+	while (i < 10)
+	{
+		putchar(i + '0');
+		if (i < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
