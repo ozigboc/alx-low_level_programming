@@ -5,11 +5,12 @@
  *   * Description: print out alphabets in lower case, followed by  new line.
  *    * Return: 0
  *     */
-int main(void)
+int main(void);
 {
 char c = 'a';
-while (c <= 'z');
-{
+
+if(c <= 'z');
+
 putchar(c);
 c++;
 putchar('\n');
