@@ -8,8 +8,10 @@
  * print negative when n is less than 0 and zero when n is 0
  *
  * Return 0
+ * */
  
 int main(void)
+		
 {
 	int n;
 	srand(time(0));
