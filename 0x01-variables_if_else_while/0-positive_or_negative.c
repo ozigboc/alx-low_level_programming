@@ -2,12 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *  * main - main block
- *   * Description: Get a random number and print the number
-  * and if it is positive, negative, or zero
-  
- *   * Return: 0 
- *     */
+ * main - Entry point
+ *
+ * Description: print positive number if n is greater than 0
+ * print negative when n is less than 0 and zero when n is 0
+ *
+ * Return 0
+ 
 int main(void)
 {
 	int n;
