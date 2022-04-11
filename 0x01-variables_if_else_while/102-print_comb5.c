@@ -27,7 +27,7 @@ int main(void)
 		b = i % 10; /*singles fnum*/
 
 		for (j = 0; j < 100; j++)
-		
+
 		{
 			c = j / 10; /*doubles snum*/
 			d = j % 10; /*singles snum*/
@@ -42,8 +42,8 @@ int main(void)
 				putchar(d + '0');
 
 				if (!(a == 9 && b == 8))
-			
 				{
+
 					putchar(44);
 					putchar(32);
 				}
