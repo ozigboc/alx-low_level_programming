@@ -2,10 +2,9 @@
 
 /**
  * main - main block
- * Description: print alphabets in
+ * Description: print alphabet in
  * lowercase and uppercase with
- * the exception of 'q' and 'e'. 
- * Return: 0
+ * the exception of 'q' and 'e'.
  */
 
 int main(void)
