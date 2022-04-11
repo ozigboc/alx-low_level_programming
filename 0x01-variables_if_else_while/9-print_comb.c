@@ -4,7 +4,7 @@
  *  * main - main block
  *   * Description: print all possible combination for single-digit numbers
  *    * Return: 0
- *     */
+      */
 int main(void)
 {
 	int i = 0;
@@ -20,5 +20,5 @@ int main(void)
 	i++;
 	}
 	putchar('\n');
-	  return (0);
+	return (0);
 }
