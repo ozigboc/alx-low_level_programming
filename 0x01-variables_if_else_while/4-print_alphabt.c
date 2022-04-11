@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-   * main - mian block    
+   * main - main block 
     * Description: print alphabets in
     * lowercase and uppercase with
-    * the exception of 'q' and 'e'. 
+    * the exeption of 'q' and 'e'. 
     * Return: 0
      */
 int main(void)
