@@ -1,11 +1,11 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
  *  * main - main block
  *   * Description: prints the alphabet in lower case, and then in upper case
  *    * followed by a new line.
  *     * Return: 0
- *      */
+     */
 int main(void)
 
 {
