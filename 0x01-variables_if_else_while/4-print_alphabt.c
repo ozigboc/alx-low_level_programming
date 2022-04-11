@@ -5,6 +5,7 @@
  * Description: print alphabet in
  * lowercase and uppercase with
  * the exception of 'q' and 'e'.
+ * Return: 0
  */
 
 int main(void)
