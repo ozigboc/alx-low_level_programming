@@ -17,6 +17,8 @@ int main(void)
 		_putchar(msg[i]);
 		
 		_putchar('\n');
-		
 		return (0);
+	
+	}
+	
 	}
