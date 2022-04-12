@@ -3,10 +3,10 @@
 /**
  *  * jack_bauer - prints every minute of the day, 24 hr clock
  *   * h = hour, m = minutes
- *    * / 10 allows second digit to rotate
- *     * for loop breaks before passing 24:00
- *      * Return: 24 hour clock line by line
-        */
+ *   * / 10 allows second digit to rotate
+ *   * for loop breaks before passing 24:00
+ *   * Return: 24 hour clock line by line
+     */
 void jack_bauer(void)
 {
 	int h, m;
