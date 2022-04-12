@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<main.h>
+#include "main.h"
 /** main - main block
  * Description: create a program to print _putschar followed by new line
  * Return 0
