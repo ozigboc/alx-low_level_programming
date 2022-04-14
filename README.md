@@ -1,1 +1,1 @@
-My readme message for the mor functions and nested loop project
+My readme message for the more functions and nested loop project
