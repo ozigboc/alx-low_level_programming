@@ -6,7 +6,7 @@
  * *
  * * Return: encoded string.
    */
-char *rot13(char *)
+char *rot13(char *s)
 {
 	int i;
 
@@ -21,7 +21,7 @@ char *rot13(char *)
 			if (*s == rot13[i])
 			{
 				*s = ROT13[i];
-				reak;
+				break;
 			}
 		}
 		s++;
