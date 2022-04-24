@@ -5,7 +5,7 @@
  * * @str: variablr srting to capitalize
  * *
  * * Return: value of str
- * */
+   */
 char *cap_string(char *str)
 {
 	int index = 0;
