@@ -7,7 +7,7 @@
  * * @dest: destination string to append to.
  * * @src: string to append.
  * * Return: Dest pointer.
- * */
+   */
 char *_strcat(char *dest, char *src)
 {
 	strcat(dest, src);
