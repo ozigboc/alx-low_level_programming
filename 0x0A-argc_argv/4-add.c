@@ -9,7 +9,7 @@
 int num_checker(char *a)
 {
 	int i, num, len;
-	    
+
 	i = 0;
 	num = 0;
 	len = strlen(a);
@@ -25,16 +25,16 @@ int num_checker(char *a)
 	}
 	return (num);
 }
- /**
-  * * main - add positive numbers
-  * * @argc: arguement count
-  * * @argv: array of pointers to arguement strings
-  * * Return: result of addition or 1
-  */
+/**
+ * * main - add positive numbers
+ * * @argc: arguement count
+ * * @argv: array of pointers to arguement strings
+ * * Return: result of addition or 1
+ */
 int main(int argc, char *argv[])
 {
 	int i, num, sum;
-	    
+
 	sum = 0;
 	for (i = 1; i < argc; i++)
 	{
