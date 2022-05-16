@@ -4,10 +4,10 @@
 #include <stdarg.h>
 
 /**
- * struct printer - a new struct type defining a printer.
- * @symbol: a symbol representing a data type 
- * @print: a function pointer to a function that prints
- * a data type corresponding to symbol
+ * * struct printer - a new struct type defining a printer.
+ * * @symbol: a symbol representing a data type
+ * * @print: a function pointer to a function that prints
+ * * a data type corresponding to symbol
  */
 typedef struct printer
 {
