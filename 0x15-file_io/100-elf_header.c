@@ -72,7 +72,7 @@ void print_magic(unsigned char *e_ident)
 /**
  * * print_class - Prints the class of an ELF header.
  * * @e_ident: A pointer to an array containing the ELF class.
- * */
+ */
 void print_class(unsigned char *e_ident)
 {
 	printf("  Class:                             ");
@@ -96,7 +96,7 @@ void print_class(unsigned char *e_ident)
 /**
  * * print_data - Prints the data of an ELF header.
  * * @e_ident: A pointer to an array containing the ELF class.
- * */
+ */
 void print_data(unsigned char *e_ident)
 {
 		printf(" Data: ");
@@ -185,7 +185,7 @@ void print_osabi(unsigned char *e_ident)
 /**
  * * print_abi - Prints the ABI version of an ELF header.
  * * @e_ident: A pointer to an array containing the ELF ABI version.
- * */
+ */
 void print_abi(unsigned char *e_ident)
 {
 	printf("  ABI Version: %d\n",
@@ -254,7 +254,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
  * * @elf: The file descriptor of the ELF file.
  * *
  * * Description: If the file cannot be closed - exit code 98.
- * */
+ */
 void close_elf(int elf)
 {
 	if (close(elf) == -1)
