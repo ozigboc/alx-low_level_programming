@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * * insert_dnode_at_index - adds node at index
- * * @h: pointer to head node
- * * @idx: index of nodes
- * * @n: elements of nodes
- * * Return: address of new node, or NULL if failed
+ * * * insert_dnode_at_index - adds node at index
+ * * * @h: pointer to head node
+ * * * @idx: index of nodes
+ * * * @n: elements of nodes
+ * * * Return: address of new node, or NULL if failed
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
